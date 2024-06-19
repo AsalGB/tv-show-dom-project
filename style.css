@@ -1,0 +1,228 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #46232a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+ 
+  }
+  
+  header h1 {
+    padding: 20px;
+    margin: 10px;
+    font-size: 40px;
+    display: inline-block;
+    background-color: #46232a;
+  }
+
+.solgan {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+
+  }
+
+
+  .btnb {
+    display: none;
+    text-decoration: none;
+    background-color: #46232a;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header input, header select {
+    margin: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #444;
+    color: #ffffff;
+    float: right;
+ 
+  }
+
+.inputs {
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+  
+  header select {
+    width: auto;
+    margin-top: 30px;
+    background-color: #46232a;
+  }
+  
+  header input::placeholder {
+    color: #aaa;
+  }
+  
+  header select::placeholder {
+    color: #aaa;
+  }
+  
+  header input:focus, header select:focus {
+    outline: none;
+  }
+  
+  header p {
+    margin: 10px;
+    font-size: 1em;
+  }
+  
+  #mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #showsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .show {
+    border: 10px solid #46232a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    align-items: center;
+    background-color: #282828;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .show:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+  
+  .show img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .show .details {
+    text-align: center;
+  }
+  
+  .show h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    background-color: #46232a;
+    color: #e4dfdf;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #episodesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .episode {
+    border: 10px solid #46232a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    background-color: #282828;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .episode:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+  
+  .episode img {
+    width: 100%;
+    border-bottom: 1px solid #444;
+  }
+  
+  .episode .details {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .episode h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #ffffffdd;
+    background-color: #46232a;
+  }
+  
+  .episode p {
+    font-size: 20px;
+    color: #ffffffd2;
+  }
+  
+  footer {
+    margin: 20px;
+    font-size: 1.2em;
+    color: #aaa;
+  }
+  
+  footer a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  .episodeLinkBtn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #46232a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size:20px;
+  }
+  
+  .episodeLinkBtn:hover {
+    background-color: #70353e;
+  }
+  

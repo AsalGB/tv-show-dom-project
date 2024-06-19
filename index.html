@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Show DOM Project</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>TV-Maze</h1>
+    
+    <p class="solgan">A place to find your favorite TV show!</p>
+
+    <button id="backToShowBtn" class="btnb">Back to Home</button>
+
+    <input type="text" id="searchInput" placeholder="tv-show name / episode name..." class="inputs">
+
+    <select id="episodeSelector">
+      <option value="">Select an episode</option>
+    </select>
+
+    <p id="episodeCount"></p>
+  </header>
+  <main id="mainContainer">
+    <div id="showsContainer"></div>
+    <div id="episodesContainer"></div>
+  </main>
+  <footer>
+    Data sourced from <a href="https://www.tvmaze.com" target="_blank">TVMaze.com</a>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html> 
